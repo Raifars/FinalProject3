@@ -2,11 +2,9 @@ body {
     font-family: 'Basic', sans-serif;
     color: #fff;
 }
-
 main {
     background: var(--bg-navy);
 }
-
 :root {
     --bg-purple: #8C32F0;
     --bg-pink: #E73587;
@@ -14,50 +12,38 @@ main {
     --bg-navy: #020E35;
     --bg-oren: #F09532;
 }
-
 .bg-gradient-purple {
     background: linear-gradient(270deg, var(--bg-purple) 0%, var(--bg-pink) 100%);
     border: 0;
     color: var(--bg-white);
 }
-
 .bg-gradient-purple:hover {
     background: linear-gradient(270deg, var(--bg-pink) 0%, var(--bg-purple) 100%);
     border: 0;
     color: var(--bg-white);
 }
-
-
 .bg-oren {
     background: var(--bg-oren);
 }
-
 .bg-purple {
     background: var(--bg-purple);
 }
-
 .bg-pink {
     background: #E73587;
 }
-
 .bg-biru {
     background: #32D6F0;
 }
-
 .text-navy {
     color: var(--bg-navy);
 }
-
 .text-xl {
     font-size: 4rem;
 }
-
-
 .card {
     width: 100%;
     height: 25rem;
 }
-
 hr {
     width: 5rem;
     height: 0.3rem;
